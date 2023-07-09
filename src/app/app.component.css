@@ -1,0 +1,56 @@
+:host {
+  background-color: blue;
+}
+
+.component-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+.component-container.selected {
+  border-color: white;
+}
+
+div nav ul {
+  list-style-type: none;
+  color: white;
+  padding: 5px;
+
+}
+/* div nav ul:active{
+  background-color: rgb(237, 237, 242);
+} */
+.a:hover {
+  /* text-color: black; */
+ background-color: white;
+ font-weight: bold;
+color: black;
+}
+.c:hover {
+  /* text-color: black; */
+ background-color: white;
+ font-weight: bold;
+color: black;
+}
+
+.o:hover {
+  /* text-color: black; */
+ background-color: white;
+ font-weight: bold;
+color: black;
+}
+
+.l:hover {
+  /* text-color: black; */
+ background-color: white;
+ font-weight: bold;
+color: black;
+}
+
+
+
+
+

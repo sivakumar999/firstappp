@@ -1,0 +1,76 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
+
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- <div style="background-color: rgb(11, 93, 170);">
+  <nav>
+     <ul style="display: flex; justify-content: space-around; padding: 10px; text-color: white"> Customer Manager
+      <li (click)="selectComponent('welcome')">Welcome</li>
+      <li (click)="selectComponent('customer')">Customer</li>
+      <li (click)="selectComponent('orders')">Orders</li>
+      <li (click)="selectComponent('about')">About</li>
+      <li (click)="selectComponent('login')">Login</li>
+    </ul>
+  </nav>
+</div>
+<div class="component-line" style="padding: 10px;">
+  <div style="display: flex; justify-content: space-between;">
+    <div *ngIf="selectedComponent === 'welcome'"><app-welcome></app-welcome></div>
+    <div *ngIf="selectedComponent === 'customer'"><app-customer></app-customer></div>
+    <div *ngIf="selectedComponent === 'orders'"><app-orders></app-orders></div>
+    <div *ngIf="selectedComponent === 'about'"><app-about></app-about></div>
+    <div *ngIf="selectedComponent === 'login'"><app-login></app-login></div>
+  </div>
+</div> -->
+
+
+<div style="background-color: rgb(11, 93, 170);">
+  <nav>
+     <ul style="display: flex; justify-content: space-around; padding: 10px; color: white"> Customer Manager
+      <li class="c" (click)="selectComponent('customer')" style="padding: 5px;">Customer</li>
+      <li class ="o" (click)="selectComponent('orders')" style="padding: 5px;">Orders</li>
+      <li class ="a"(click)="selectComponent('about')" style="padding: 5px;">About</li>
+      <li class ="l"(click)="selectComponent('login')" style="padding: 5px;">Login</li>
+    </ul>
+  </nav>
+</div>
+<div class="component-line" style="padding: 10px;">
+  <div style="display: flex; justify-content: space-between;">
+    <div *ngIf="selectedComponent === 'welcome'"><app-welcome></app-welcome></div>
+    <div *ngIf="selectedComponent === 'customer'"><app-customer></app-customer></div>
+    <div *ngIf="selectedComponent === 'orders'"><app-orders></app-orders></div>
+    <div *ngIf="selectedComponent === 'about'"><app-about></app-about></div>
+    <div *ngIf="selectedComponent === 'login'"><app-login></app-login></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

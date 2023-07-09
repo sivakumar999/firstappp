@@ -1,0 +1,31 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "orders": [
+        {
+          "id": 101,
+          "product": "Product 1",
+          "quantity": 2
+        },
+        {
+          "id": 102,
+          "product": "Product 2",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "orders": [
+        {
+          "id": 103,
+          "product": "Product 3",
+          "quantity": 5
+        }
+      ]
+    }
+  ]
+}
